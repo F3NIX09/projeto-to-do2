@@ -6,13 +6,11 @@ main {
   color: #fff; 
 }
 
-
 .header {
   background-color: #262626;
   border-radius: 1rem;
   padding: 2rem;
   max-width: 462px;
-  
 
   display: flex;
   flex-direction: column;
@@ -20,6 +18,12 @@ main {
   & h2 {
     font-size: 1.5rem;
     background-color: #262626;
+  }
+
+  & p {
+    background-color: #262626;
+    color: #ff0000;
+    margin-top: 0.75rem;
   }
 }
 
@@ -30,6 +34,7 @@ label {
 }
 
 input {
+  padding: 0.5rem;
   background-color: #262626;
   width: 400px;
   height: 40px;
@@ -43,9 +48,10 @@ button {
   width: 400px;
   height: 40px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
-.task {
+ .task {
   margin-top: 2.5rem;
   background-color: #404040;
   border-radius: 1rem;
@@ -77,6 +83,7 @@ button {
 
   & img {
     background-color: #404040;
+    cursor: pointer;
   }
 
   & .list {
@@ -84,4 +91,5 @@ button {
     font-size: 1.25rem;
     display: flex;
   }
+
 }
